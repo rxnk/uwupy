@@ -13,3 +13,9 @@ uwuify = "^0.2"
 [dependencies.pyo3]
 version = "0.15.1"
 features = ["extension-module"]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
